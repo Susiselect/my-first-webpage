@@ -1,0 +1,151 @@
+/*lo primero que hay que hacer es 
+cargar el css normalize para dejar todos los estilos
+por defecto en cero, son los navegadores los que traen
+esos estilos*/
+/*/ <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900*/
+
+/* Ejemplo de Media Query para pantallas pequeñas */
+@media only screen and (max-width: 600px) {
+    /* Estilos específicos para pantallas pequeñas */
+}
+  
+  /* Ejemplo de Media Query para pantallas medianas */
+  @media only screen and (min-width: 600px) and (max-width: 900px) {
+    /* Estilos específicos para pantallas medianas */
+}
+  
+  /* Ejemplo de Media Query para pantallas grandes */
+  @media only screen and (min-width: 900px) {
+    /* Estilos específicos para pantallas grandes */
+}
+  
+
+*{
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 115%;
+
+}
+
+body {
+  font-family: "M PLUS 1", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: #0a3871;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    margin-left: 30%;
+    text-transform: lowercase;
+    font-size: 20px;
+    font-family: "M plus 1", sans-serif;
+}
+::placeholder { color: #0a3871; }
+  .text-area:focus {
+    outline: none;
+  }
+
+.mensaje {
+    background: rgb(241, 248, 250);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-top: 90px;
+    padding-left: 50px;
+    position: fixed;
+    font-family: "M plus 1", sans-serif;
+    font-size: 20px;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.informacion {
+    font-size: 17px;
+    margin-left: 30%;
+    margin-top: 20%;
+}
+
+
+.botones {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 30%;
+}
+
+.btn-desencriptar {
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 40px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 19px;
+}
+
+.btn-encriptar {
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 19px;
+}
+
+.copiar {
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 37%;
+    margin-top: 462px;
+    position: absolute;
+    width: 200px;
+    font-size: 20px;
+}
+
+.logo1 {
+    width:3%;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.logo2 {
+    width: 10%;
+    margin-left: 52%;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 15px;
+}
